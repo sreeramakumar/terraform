@@ -3,10 +3,10 @@ provider "aws" {
   secret_key = "P3oCCJj0fI0F4RLwhKs/xcpIAwovr1OUf8OnP/Hp"
   region     = "ap-south-1"
 }
-resource "aws_instance" "Terraform hands-on" {
+resource "aws_instance" "docker-testserver" {
   ami           = "ami-074dc0a6f6c764218"
   instance_type = "t2.micro"
   tags = {
-    Name = "Terraform hands-on"
+    Name = "docker-testserver"
   }
 }
