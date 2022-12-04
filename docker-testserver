@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "AKIA3IUPGVBHNI6TJWMR"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
   region     = "ap-south-1"
 }
 resource "aws_instance" "docker-testserver" {
